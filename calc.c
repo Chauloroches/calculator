@@ -25,7 +25,7 @@ int main(int argc, char* argv[]){
 			case '/':printf("%d / %d = %d rem %d\n",argv1, argv2, divide(argv1, argv2),  modulus(argv1, argv2));
 			break;
 			default:
-            printf("Error!");
+            		printf("Error!");
 			}
 	}
 	return 0;
